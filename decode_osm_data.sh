@@ -8,7 +8,10 @@ ogr-decode --max-segment 500 --line-width 8 --area-type Stream work/Stream data/
 ogr-decode --max-segment 500 --line-width 6 --area-type Railroad work/Railroad data/shapefiles/osm_railway/
 ogr-decode --max-segment 500 --area-type Industrial work/Industrial data/shapefiles/osm_industrial/
 ogr-decode --max-segment 500 --area-type Commercial work/Commercial data/shapefiles/osm_commercial/
+ogr-decode --max-segment 500 --area-type Port work/Port data/shapefiles/osm_port
 ogr-decode --max-segment 500 --area-type Construction work/Construction data/shapefiles/osm_construction/
+ogr-decode --max-segment 500 --area-type Orchard work/Orchard data/shapefiles/osm_plantnursery/
+ogr-decode --max-segment 500 --area-type BarrenCover work/BarrenCover data/shapefiles/osm_brownfield/
 ogr-decode --max-segment 500 --area-type Sand work/Sand data/shapefiles/osm_sand/
 ogr-decode --max-segment 500 --area-type Lake work/Lake data/shapefiles/osm_lake/
 ogr-decode --max-segment 500 --area-type Town work/Town data/shapefiles/osm_town/
@@ -29,4 +32,5 @@ ogr-decode --max-segment 500 --area-type Airport work/Airport data/shapefiles/os
 ogr-decode --max-segment 500 --area-type Airport work/Airport data/shapefiles/osm_grass/
 ogr-decode --max-segment 500 --area-type OpenMining work/OpenMining data/shapefiles/osm_quarry/
 ogr-decode --max-segment 500 --area-type MixedCrop work/MixedCrop data/shapefiles/osm_farm/
+ogr-decode --max-segment 500 --area-type Littoral work/Littoral data/shapefiles/osm_wetland/
 ogr-decode --max-segment 500 --area-type Default work/Default data/shapefiles/osm_landmass/
